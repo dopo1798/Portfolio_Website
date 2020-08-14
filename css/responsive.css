@@ -1,0 +1,89 @@
+/* if the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width: 340px) {
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .services-area,
+    .site-main .contact-area,
+    .site-main .contact-area .contact,
+    .site-main .contact-area .contact .form-group,
+    .site-main .contact-area .contact .form-group label,
+    .site-main .contact-area .contact .form-btn,
+    .site-main .contact-area .experience-area,
+    .site-main .contact-area .experience-area img {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .contact-area {
+        box-sizing: border-box;
+    }
+    /*.site-main .contact-area .experience-area .years-area .years {
+        font-size: 40px;
+    }
+    .site-main .contact-area .experience-area .years-area h2>span {
+        font-size: medium;
+    }
+    .site-main .contact-area .experience-area .call-area .callus span>i {
+        block-size: 0em;
+    }
+    .site-main .contact-area .experience-area .years-area .call-now a {
+        font-size: medium;
+    }
+    .site-main .contact-area .experience-area .bg-panel {
+        margin-left: 30%;
+        width: 80%;
+    }*/
+    .site-main .contact-area .contact {
+        padding-left: 0.5rem;
+        width: 20rem !important;
+    }
+    .site-main .contact-area .contact .form-group {
+        width: 8rem;
+    }
+    .site-main>.services-area .services {
+        width: 13rem;
+    }
+    .site-main .site-banner .site-title h1 {
+        font-size: 41px;
+    }
+}
+
+
+/* if the viewport is equal to 792px or less than that */
+
+@media only screen and (max-width: 792px) {
+    .site-main .about-area .about-title h2>span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .site-main .contact-area .experience-area {
+        margin-left: -50%;
+        padding-left: 2rem;
+    }
+}
+
+
+/* if the viewport is equal to 1910px or less than that */
+
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
+        padding: 1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area {
+        padding: 3% 4%;
+    }
+}
+
+.site-main .project-area .button-group button {
+    font: normal 500 18px/40px "Poppins";
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+}
